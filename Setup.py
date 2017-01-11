@@ -8,4 +8,4 @@ setup(	name="topgeo",
 		author="Alan Cruz - Jairo Avalos",
 		author_email="alanotero96@hotmail.com,javalos@ucol.mx",
 		license="MIT",
-		packages=["topgeo"])
+		packages=["coordenada","distancia"])
