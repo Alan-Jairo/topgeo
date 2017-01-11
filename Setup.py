@@ -6,4 +6,4 @@ setup(
 	version="0.1",
 	long_description="Herramienta para realizar calculos topograficos",
 	license="MIT",
-	packages=["coordenada","distancia"])
+	packages=["topgeo"])
