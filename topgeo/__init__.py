@@ -3,7 +3,7 @@ from distancia import caldist
 
 
 
-def topgeo
+def topgeo(a):
     """
     Esta libreria funciona para realizar calculos topograficos.
     """
