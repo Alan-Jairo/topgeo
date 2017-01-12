@@ -8,10 +8,14 @@
 ### Alan Mauricio Cruz Otero
 
 def calcoor(csv):
-    # Agregar los modulos numpy pandas y matplotlib
+    """
+    Esta es una funcion para realizar el calculo de coordenadas en la biblioteca topgeo.
+    """
+    
+    
+    # Agregar los modulos numpy y pandas 
     import numpy as np
     import pandas as pd
-    import matplotlib as plt
     
     
     #Almacenamos en la variable pts el archivo csv
@@ -60,4 +64,4 @@ def calcoor(csv):
     # Se muestran los datos calculados en el archivo csv se muestran en pantalla
     return pts
 
-calcoor('Lev_canal.csv')
+    calcoor('Lev_canal.csv')

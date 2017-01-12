@@ -9,6 +9,9 @@
 
 
 def caldist(csv):
+    """
+    Esta funcion sirve para realizar el calculo de distancias entre dos puntos.
+    """
     
     # Importamos los modulos numpy y pandas
     import numpy as np
