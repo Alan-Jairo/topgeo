@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 from  distutils.core import setup
+      """
+      Esta libreria funciona para realizar calculos topograficos.
+      """
 
 setup(	
 	name="topgeo",
