@@ -14,10 +14,10 @@ Para realizar una instalación local es necesario tener el instalador *pip* inst
 
 Desde el sitio oficial de GitHub descargar la librería con el sguiente enlace.
 
-https://github.com/Alan-Jairo/topgeo
+* https://github.com/Alan-Jairo/topgeo
 
 En la consola de Python ejecutar el siguiente script para la instalación de la librería.
 
-pip install git+https://github.com/Alan-Jairo/topgeo
+* pip install git+https://github.com/Alan-Jairo/topgeo
 
 Si usted utiliza en su computador un sistema operativo Windows antes es necesario instalar *git*. En caso de utilizar Unix o Mac OS no es necesario.
