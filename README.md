@@ -21,3 +21,5 @@ En la consola de Python ejecutar el siguiente script para la instalación de la 
 * pip install git+https://github.com/Alan-Jairo/topgeo
 
 Si usted utiliza en su computador un sistema operativo Windows antes es necesario instalar *git*. En caso de utilizar Unix o Mac OS no es necesario.
+
+Automáticamente la librería es guardada donde se encuentran almacenadas las demás librerías de Python.
