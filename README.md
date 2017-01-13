@@ -8,6 +8,6 @@ Esta librería es simplemente una herramienta la cual ayuda al Ingeniero Topógr
 
 # Instalación
 
-Para realizar una instalación correcta es necesario seguir los pasos siguientes:
-* Utilizar el instalador *pip* 
+Para realizar una instalación local es necesario tener el instalador *pip* instalado y que sea ejecutable:
+*pip install*
 
