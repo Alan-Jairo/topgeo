@@ -18,7 +18,7 @@ def caldist(csv):
     import pandas as pd
 
     #Almacenamos en la variable pts el archivo csv
-    pts_1 = input("Ingresar archivo CSV:")
+    pts_1 = input("Ingresar archivo CSV puntos:")
     print "Usted ingreso:"
     pts_1 +"!"
     
