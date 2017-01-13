@@ -20,7 +20,7 @@ def calcoor(csv):
     
     
     #Almacenamos en la variable pts el archivo csv
-    pts_1 = input("Ingresar archivo CSV:")
+    pts_1 = input("Ingresar archivo CSV dist y ang:")
     print "Usted ingreso:"
     pts_1 +"!"
     
