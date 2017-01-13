@@ -1,3 +1,3 @@
 # topgeo
 
-*some description here*
+*topgeo es una librería de Python la cual permite:*
