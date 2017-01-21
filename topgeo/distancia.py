@@ -19,8 +19,6 @@ def caldist(csv):
 
     #Almacenamos en la variable pts el archivo csv
     pts_1 = input("Ingresar archivo CSV puntos:")
-    print "Usted ingreso:"
-    pts_1 +"!"
     
     pts = pd.read_csv(pts_1)
     
@@ -31,17 +29,12 @@ def caldist(csv):
 
     # Escribir las coordenadas arbitrarias donde se inicio el levantamiento con Estacion Total(X,Y,Z)
     xx = float(input("Ingresar coordenada arbitraria donde se inicio el levantamiento x: "))
-    print ("Usted ingreso", xx)
     yy = float(input("Ingresar coordenada arbitraria donde se inicio el levantamiento y: "))
-    print ("Usted ingreso", yy)
     zz = float(input("Ingresar coordenada arbitraria donde se inicio el levantamiento Z: "))
-    print ("Usted ingreso", zz)
     
     # Escribir el altura del aparato y altura del prisma
     Alt_A = float(input("Ingresar altura del Aparato Estación Total: "))
-    print ("Usted ingreso", Alt_A)
     Alt_P = float(input("Ingresar altura del prisma: "))
-    print ("Usted ingreso", Alt_P)
     
     #Se crean nuevas columnas en nuestra tabla y se hace el calculo de ellas
     n = (((xx-X)**2)+((yy-Y)**2))
