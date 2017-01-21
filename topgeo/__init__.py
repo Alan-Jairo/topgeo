@@ -6,3 +6,5 @@
 
 from coordenada import calcoor
 from distancia import caldist
+pd.read_csv('Lev_canal.csv')
+pd.read_csv('Puntos.csv')
