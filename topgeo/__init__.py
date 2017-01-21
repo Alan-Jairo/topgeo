@@ -6,5 +6,3 @@
 
 from coordenada import calcoor
 from distancia import caldist
-from 'Lev_canal.csv' import *
-from 'Puntos.csv' import *
