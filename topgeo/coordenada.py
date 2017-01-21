@@ -20,9 +20,7 @@ def calcoor(csv):
     
     
     #Almacenamos en la variable pts el archivo csv
-    pts_1 = input("Ingresar archivo CSV dist y ang:")
-    
-    pts = pd.read_csv(pts_1)
+    pts = pd.read_csv(input("Ingresar archivo CSV dist y ang:"))
     
     #Se almacenan las variables en las columnas que queremos del csv
     DH = pts['Dist_H']
