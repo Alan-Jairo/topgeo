@@ -29,7 +29,6 @@ def calcoor(csv):
     Button(text='Abrir Archivo', command=llamada).pack(fill=mainloop()
     
                                                        
-    llamada()
                                                        
     #Almacenamos en la variable pts el archivo csv
     pts = pd.read_csv(llamada)
