@@ -66,4 +66,4 @@ def calcoor(csv):
     # Se muestran los datos calculados en el archivo csv se muestran en pantalla
     return pts
 
-calcoor('Lev_canal.csv')
+    calcoor('Lev_canal.csv')
