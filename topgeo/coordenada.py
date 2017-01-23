@@ -18,20 +18,23 @@ def calcoor(csv):
     import numpy as np
     import pandas as pd
     from Tkinter import *
+    import tkFileDialog
+    import sys
     from tkFileDialog import askopenfilename
     
-    def llamada():
-        nombre = askopenfilename()
-        print nombre
     
-    
-    errmsg = "Error!"
-    Button(text='Abrir Archivo', command=llamada).pack(fill=mainloop()
-    
+    op = Tk()
+    op.title("CSV")
+    menu1 = Menu(op)
+    def open():
+        leer = askopenfilename(filetypes=[("Archivos CSV", "*.csv")]
+        csv = leer.read()
+        
+    op.mainloop()
                                                        
                                                        
     #Almacenamos en la variable pts el archivo csv
-    pts = pd.read_csv(llamada)
+    pts = pd.read_csv(csv)
     
     #Se almacenan las variables en las columnas que queremos del csv
     DH = pts['Dist_H']
