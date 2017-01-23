@@ -17,7 +17,16 @@ def calcoor(csv):
     # Agregar los modulos numpy y pandas 
     import numpy as np
     import pandas as pd
+    from Tkinter import *
+    from tkFileDialog import askopenfilename
     
+    def llamada():
+        nombre = askopenfilename()
+        print nombre
+    
+    
+    errmsg = "Error!"
+    Button(text='Abrir Archivo', command=llamada).pack(fill=mainloop()
     
     #Almacenamos en la variable pts el archivo csv
     pts = pd.read_csv(input("Ingresar archivo CSV dist y ang:"))
