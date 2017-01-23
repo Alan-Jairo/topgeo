@@ -91,9 +91,12 @@ def caldist(csv):
     # Importamos los modulos numpy y pandas
     import numpy as np
     import pandas as pd
+    import easygui
+    
+    csv = easygui.fileopenbox()
 
     #Almacenamos en la variable pts el archivo csv
-    pts = pd.read_csv(llamada)
+    pts = pd.read_csv(csv)
     
     #Se almacenan las nuevas variables en las columnas que queremos de la tabla
     X = pts['Coor_X']
