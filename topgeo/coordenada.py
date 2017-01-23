@@ -28,7 +28,7 @@ def calcoor(csv):
     menu1 = Menu(op)
     def open1():
         leer = askopenfile(filetypes=[("Archivos CSV", "*.csv")]
-        csf = leer.read()
+        csv = leer.read()
         
     op.mainloop()
                                                        
