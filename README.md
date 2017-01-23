@@ -2,7 +2,10 @@
 
 topgeo es una librería de Python la cual permite:
 * Realizar el cálculo de coordenadas de un levantamiento cualquiera.
-* Realizar el cálculo de distancia entre dos puntos.
+* Realizar el cálculo de la distancia horizontal entre dos puntos.
+* Realizar el cálculo de distancias entre dos puntos arbitrarios en x,y,z.
+
+
 
 Esta librería es simplemente una herramienta la cual ayuda al Ingeniero Topógrafo Geomático en la realización de cálculos topográficos para facilitar el procesamiento de estos.
 
