@@ -34,7 +34,7 @@ def calcoor(csv):
                                                        
                                                        
     #Almacenamos en la variable pts el archivo csv
-    pts = pd.read_csv(csf)
+    pts = pd.read_csv(csv)
     
     #Se almacenan las variables en las columnas que queremos del csv
     DH = pts['Dist_H']
