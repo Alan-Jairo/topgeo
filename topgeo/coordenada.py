@@ -17,20 +17,7 @@ def calcoor(csv):
      # Agregar los modulos numpy y pandas 
     import numpy as np
     import pandas as pd
-    from Tkinter import *
-    import tkFileDialog
-    import sys
-    from tkFileDialog import askopenfile
     
-    
-    op = Tk()
-    op.title("CSV")
-    menu1 = Menu(op)
-    def open1():
-        leer = askopenfile(filetypes=[("Archivos CSV", "*.csv")]
-        csf = leer.read()
-        
-    op.mainloop()
                                                        
                                                        
     #Almacenamos en la variable pts el archivo csv
