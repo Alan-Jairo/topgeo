@@ -14,7 +14,7 @@ def calcoor(csv):
     """
     
     
-    # Agregar los modulos numpy y pandas 
+    # Agregar los modulos numpy, Tkinter y pandas 
     import numpy as np
     import pandas as pd
     from Tkinter import *
@@ -28,7 +28,7 @@ def calcoor(csv):
     errmsg = "Error!"
     Button(text='Abrir Archivo', command=llamada).pack(fill=mainloop()
     
-    #Almacenamos en la variable pts el archivo csv
+    # Almacenamos en la variable pts el archivo csv
     pts = pd.read_csv(csv)
     
     #Se almacenan las variables en las columnas que queremos del csv
