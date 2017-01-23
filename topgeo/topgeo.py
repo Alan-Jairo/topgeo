@@ -29,7 +29,7 @@ def calcoor(csv):
     Button(text='Abrir Archivo', command=llamada).pack(fill=mainloop()
     
     #Almacenamos en la variable pts el archivo csv
-    pts = pd.read_csv(input(llamada))
+    pts = pd.read_csv(llamada)
     
     #Se almacenan las variables en las columnas que queremos del csv
     DH = pts['Dist_H']
