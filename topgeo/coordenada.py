@@ -26,7 +26,7 @@ def calcoor(csv):
     op = Tk()
     op.title("CSV")
     menu1 = Menu(op)
-    def open():
+    def open1():
         leer = askopenfilename(filetypes=[("Archivos CSV", "*.csv")]
         csv = leer.read()
         
