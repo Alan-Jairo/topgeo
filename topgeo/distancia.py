@@ -18,7 +18,7 @@ def caldist(csv):
     import pandas as pd
 
     #Almacenamos en la variable pts el archivo csv
-    pts = pd.read_csv(input("Ingresar archivo CSV puntos:"))
+    pts = pd.read_csv(csv)
     
     #Se almacenan las nuevas variables en las columnas que queremos de la tabla
     X = pts['Coor_X']
