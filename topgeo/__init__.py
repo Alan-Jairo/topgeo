@@ -7,5 +7,5 @@
 
 from coordenada import calcoor
 from distancia import caldist
-from caldist3d import caldist3d
+from distancia3d import caldist3d
 
