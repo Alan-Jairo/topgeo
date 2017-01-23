@@ -28,13 +28,13 @@ def calcoor(csv):
     menu1 = Menu(op)
     def open1():
         leer = askopenfile(filetypes=[("Archivos CSV", "*.csv")]
-        csv = leer.read()
+        csf = leer.read()
         
     op.mainloop()
                                                        
                                                        
     #Almacenamos en la variable pts el archivo csv
-    pts = pd.read_csv(csv)
+    pts = pd.read_csv(csf)
     
     #Se almacenan las variables en las columnas que queremos del csv
     DH = pts['Dist_H']
