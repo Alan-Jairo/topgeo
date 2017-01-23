@@ -49,13 +49,13 @@ def calcoor(csv):
     DV = pts['Dist_V']
     
     # Escribir las coordenadas arbitrarias donde se inicio el levantamiento con Estacion Total(X,Y,Z)
-    xx = float(input("Ingresar coordenada arbitraria donde se inicio el levantamiento x: "))
-    yy = float(input("Ingresar coordenada arbitraria donde se inicio el levantamiento y: "))
-    zz = float(input("Ingresar coordenada arbitraria donde se inicio el levantamiento Z: "))
+    xx = 100
+    yy = 100
+    zz = 100
     
     # Escribir el altura del aparato y altura del prisma
-    Alt_A = float(input("Ingresar altura del Aparato Estación Total: "))
-    Alt_P = float(input("Ingresar altura del prisma: "))
+    Alt_A = 1.620
+    Alt_P = 1.620
     
     #Se crean nuevas columnas en nuestra tabla y se hace el calculo de ellas
     pts ['Coo_x'] = (xx + Px)
@@ -98,7 +98,7 @@ def caldist(csv):
     import pandas as pd
 
     #Almacenamos en la variable pts el archivo csv
-    pts = pd.read_csv(input("Ingresar archivo CSV puntos:"))
+    pts = pd.read_csv(llamada)
     
     #Se almacenan las nuevas variables en las columnas que queremos de la tabla
     X = pts['Coor_X']
@@ -106,13 +106,13 @@ def caldist(csv):
     Z = pts['Coor_Z']
 
     # Escribir las coordenadas arbitrarias donde se inicio el levantamiento con Estacion Total(X,Y,Z)
-    xx = float(input("Ingresar coordenada arbitraria donde se inicio el levantamiento x: "))
-    yy = float(input("Ingresar coordenada arbitraria donde se inicio el levantamiento y: "))
-    zz = float(input("Ingresar coordenada arbitraria donde se inicio el levantamiento Z: "))
+    xx = 100
+    yy = 100
+    zz = 100
     
     # Escribir el altura del aparato y altura del prisma
-    Alt_A = float(input("Ingresar altura del Aparato Estación Total: "))
-    Alt_P = float(input("Ingresar altura del prisma: "))
+    Alt_A = 1.620
+    Alt_P = 1.620
     
     #Se crean nuevas columnas en nuestra tabla y se hace el calculo de ellas
     n = (((xx-X)**2)+((yy-Y)**2))
