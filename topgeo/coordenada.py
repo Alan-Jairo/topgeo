@@ -20,14 +20,14 @@ def calcoor(csv):
     from Tkinter import *
     import tkFileDialog
     import sys
-    from tkFileDialog import askopenfilename
+    from tkFileDialog import askopenfile
     
     
     op = Tk()
     op.title("CSV")
     menu1 = Menu(op)
     def open1():
-        leer = askopenfilename(filetypes=[("Archivos CSV", "*.csv")]
+        leer = askopenfile(filetypes=[("Archivos CSV", "*.csv")]
         csv = leer.read()
         
     op.mainloop()
