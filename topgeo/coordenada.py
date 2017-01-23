@@ -28,8 +28,11 @@ def calcoor(csv):
     errmsg = "Error!"
     Button(text='Abrir Archivo', command=llamada).pack(fill=mainloop()
     
+                                                       
+    llamadas = llamada()
+                                                       
     #Almacenamos en la variable pts el archivo csv
-    pts = pd.read_csv(llamada)
+    pts = pd.read_csv(llamadas)
     
     #Se almacenan las variables en las columnas que queremos del csv
     DH = pts['Dist_H']
